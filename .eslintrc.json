@@ -20,13 +20,8 @@
     "no-console": "off",
     "guard-for-in": "off",
     "no-tabs": "off",
+    "no-nested-ternary": "off",
     "no-restricted-syntax": ["error","LabeledStatement","WithStatement"],
-    "max-len": ["error", 100, {
-      "tabWidth": 2,
-      "ignoreUrls": true,
-      "ignoreComments": true,
-      "ignoreStrings": true,
-      "ignoreTemplateLiterals": true
-    }]
+    "max-len": "off"
   }
 }

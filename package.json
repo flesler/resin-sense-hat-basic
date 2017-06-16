@@ -26,7 +26,8 @@
   "homepage": "https://github.com/flesler/resin-sense-hat-basic#readme",
   "dependencies": {
     "sense-hat-led": "1.0.x",
-    "sense-joystick": "0.0.x"
+    "sense-joystick": "0.0.x",
+		"nodeimu": "2.1.x"
   },
   "devDependencies": {
     "eslint": "3.x",

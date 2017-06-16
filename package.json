@@ -1,0 +1,37 @@
+{
+  "name": "resin-sense-hat-basic",
+  "version": "1.0.0",
+  "author": "Ariel Flesler <ariel@resin.io>",
+  "description": "My first experiment using SenseHAT's LEDs and joystick, powered by resin.io",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "precommit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flesler/resin-sense-hat-basic"
+  },
+  "keywords": [
+    "resin.io",
+    "nodejs"
+  ],
+  "engines": {
+    "node": "6.x"
+  },
+  "license": "BSD-3",
+  "bugs": "https://github.com/flesler/resin-sense-hat-basic/issues",
+  "homepage": "https://github.com/flesler/resin-sense-hat-basic#readme",
+  "dependencies": {
+    "sense-hat-led": "1.0.x",
+    "sense-joystick": "0.0.x"
+  },
+  "devDependencies": {
+    "eslint": "3.x",
+    "eslint-config-airbnb-base": "7.x",
+    "eslint-plugin-import": "1.x",
+    "husky": "0.11.4"
+  }
+}

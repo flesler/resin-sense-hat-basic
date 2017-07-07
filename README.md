@@ -5,8 +5,8 @@ My first experiment using SenseHAT's LEDs and joystick, powered by [resin.io](ht
 ## Control
 
 - Use the joystick to move the dot
-- Press the joystick button to cycle colors
-- Hold button for rainbow
+- Press/hold the joystick button to cycle colors
+- Do nothing for 5 seconds to get a rainbow
 - (WIP) Use the accelerometer to move the dot
 
 ## Demo

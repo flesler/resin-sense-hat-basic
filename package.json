@@ -19,15 +19,14 @@
     "nodejs"
   ],
   "engines": {
-    "node": "6.x"
+    "node": "8.x"
   },
   "license": "BSD-3",
   "bugs": "https://github.com/flesler/resin-sense-hat-basic/issues",
   "homepage": "https://github.com/flesler/resin-sense-hat-basic#readme",
   "dependencies": {
-    "sense-hat-led": "1.0.x",
-    "sense-joystick": "0.0.x",
-		"nodeimu": "2.1.x"
+    "sense-hat-led": "^1.0.1",
+    "sense-joystick": "^0.0.3"
   },
   "devDependencies": {
     "eslint": "3.x",
